@@ -11,5 +11,5 @@ def reformat_languages(languages)
       hash[key1] = {key2=>value2, :style => [key]}}
     end
       }}
-    binding.pry
+    hash
 end
