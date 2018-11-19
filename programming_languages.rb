@@ -1,3 +1,5 @@
+require 'pry'
+
 def reformat_languages(languages)
   hash = {}
   languages.each{|key, value|
@@ -6,7 +8,8 @@ def reformat_languages(languages)
       hash[key1][:style].push(key)
     else
       value1.each{|key2, value2|
-      hash[key1] = {key2=>value2, :style => [key]}
-    }end
+      hash[key1] = {key2=>value2, :style => [key]}}
+    end
       }}
+    binding.pry
 end
