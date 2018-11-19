@@ -7,6 +7,6 @@ def reformat_languages(languages)
     else
       value1.each{|key2, value2|
       hash[key1] = {key2=>value2, :style => [key]}
-    end
-      }}}
+    }end
+      }}
 end
